@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{3249291e-4920-4dc7-b23a-d77564c1e152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{40a07709-7096-4ef2-9f83-d0bae0705a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fitting">
+      <UniqueIdentifier>{704617cd-f5e2-4e63-8794-ba989e379862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphcut">
+      <UniqueIdentifier>{0235d007-7321-4088-aa7c-b93beb32672f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ActionListener">
+      <UniqueIdentifier>{dcd38394-65bb-42ba-abba-eafdae3402e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smart_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BHTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphcut\block.h">
+      <Filter>graphcut</Filter>
+    </ClInclude>
+    <ClInclude Include="graphcut\energy.h">
+      <Filter>graphcut</Filter>
+    </ClInclude>
+    <ClInclude Include="graphcut\GCoptimization.h">
+      <Filter>graphcut</Filter>
+    </ClInclude>
+    <ClInclude Include="graphcut\graph.h">
+      <Filter>graphcut</Filter>
+    </ClInclude>
+    <ClInclude Include="graphcut\LinkedBlockList.h">
+      <Filter>graphcut</Filter>
+    </ClInclude>
+    <ClInclude Include="energy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineCallBack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data3D.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Image3D.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="FitModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLine3D.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphFitting.h">
+      <Filter>Fitting</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelActionListener.h">
+      <Filter>ActionListener</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BHTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphcut\GCoptimization.cpp">
+      <Filter>graphcut</Filter>
+    </ClCompile>
+    <ClCompile Include="graphcut\graph.cpp">
+      <Filter>graphcut</Filter>
+    </ClCompile>
+    <ClCompile Include="graphcut\LinkedBlockList.cpp">
+      <Filter>graphcut</Filter>
+    </ClCompile>
+    <ClCompile Include="graphcut\maxflow.cpp">
+      <Filter>graphcut</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLine3D.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphFitting.cpp">
+      <Filter>Fitting</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelActionListener.cpp">
+      <Filter>ActionListener</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="graphcut\GCO_README.TXT">
+      <Filter>graphcut</Filter>
+    </None>
+  </ItemGroup>
+</Project>
